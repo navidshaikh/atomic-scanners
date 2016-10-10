@@ -10,13 +10,13 @@ Steps to use:
 - Pull Docker image from **registry.centos.org**:
 
 ```
-$ docker pull docker.io/swordphilic/scanner-rpm-verify
+$ docker pull registry.centos.org/pipeline-images/scanner-rpm-verify
 ```
 
 - Install it using `atomic`:
 
 ```
-$ atomic install docker.io/swordphilic/scanner-rpm-verify
+$ atomic install registry.centos.org/pipeline-images/scanner-rpm-verify
 ```
 
 - Mount the image's rootfs because by default `atomic scan` would mount it in
